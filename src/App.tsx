@@ -1,9 +1,11 @@
+import { useState } from "react";
 
 function App() {
+  const [count, setCount] = useState(0);
 
   return (
     <div>
-      <h1>Rupesh Pradhan</h1>
+      <h1>Stopwatch and Timer App</h1>
     </div>
   );
 }
