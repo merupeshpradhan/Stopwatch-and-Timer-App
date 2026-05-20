@@ -1,7 +1,7 @@
 # ⏱️ Chronos Engine – Stopwatch & Timer App
 
-A modern, futuristic **Stopwatch & Timer web application** built with **React, TypeScript, Vite, and Tailwind CSS**.  
-It features a sleek dark UI, glowing gradients, smooth animations, and real-time precision tracking.
+A modern and beautifully designed **Stopwatch + Timer web application** built with React, TypeScript, and Tailwind CSS.  
+It features a futuristic UI with animated circular progress indicators, real-time updates, and smooth interactions.
 
 ---
 
@@ -11,34 +11,49 @@ It features a sleek dark UI, glowing gradients, smooth animations, and real-time
 
 ---
 
-## 📦 Repository
+## 📦 GitHub Repository
 
-👉 https://github.com/merupeshpradhan/Stopwatch-and
+👉 https://github.com/merupeshpradhan/Stopwatch-and-Timer-App
 
 ---
 
 ## ✨ Features
 
-- ⏱️ Real-time **Stopwatch** with hours, minutes, seconds
-- ⏳ Custom **Countdown Timer**
-- 🎯 Circular animated progress indicators (SVG-based)
-- 🌈 Neon/glow futuristic UI design
-- 🔔 Toast notifications for user feedback
-- ⚡ Smooth start / pause / reset controls
-- 📱 Fully responsive design (mobile + desktop)
-- 🎨 Beautiful Tailwind CSS glassmorphism styling
-- 🔁 Auto reset when timer reaches zero
+### ⏱️ Stopwatch
+- Start / Pause functionality
+- Reset option
+- Circular animated progress indicator
+- Hours : Minutes : Seconds format
+- Real-time updates with smooth transitions
+- Toast notifications for actions
+
+### ⏲️ Timer
+- Set custom countdown (in seconds)
+- Start / Pause / Clear controls
+- Auto reset when timer ends
+- Circular progress animation
+- Alert notification on completion
+
+---
+
+## 🎨 UI Highlights
+
+- Neon futuristic dark theme
+- Glassmorphism effects
+- Smooth animations & transitions
+- Fully responsive design (mobile + desktop)
+- Modern circular SVG progress rings
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **React 19**
-- **TypeScript**
-- **Vite**
-- **Tailwind CSS**
-- **React Router DOM**
-- **React Hot Toast**
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- React Hot Toast
 
 ---
 
@@ -46,26 +61,53 @@ It features a sleek dark UI, glowing gradients, smooth animations, and real-time
 
 
 src/
-│
-├── components/
+│── components/
 │ ├── Layout.tsx
 │ ├── Navbar.tsx
 │ ├── Stopwatch.tsx
 │ └── Timer.tsx
 │
-├── routes/
+│── routes/
 │ └── AppRoutes.tsx
 │
-├── App.tsx
-├── main.tsx
-├── index.css
+│── App.tsx
+│── main.tsx
+│── index.css
 
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the repository
-
+# 1️⃣. Clone repository
 ```bash
-git clone https://github.com/merupeshpradhan/Stopwatch-and.git
+git clone https://github.com/merupeshpradhan/Stopwatch-and-Timer-App.git
+```
+---
+
+# 2️⃣
+```bash
+npm install
+```
+---
+
+# 3️⃣ Run development server
+```
+npm run dev
+```
+
+---
+
+# 4️⃣ Build for production
+```
+npm run build
+```
+
+---
+
+# 🌐 Routes
+
+|Route | Page |
+|---|---|
+| / | `Stopwatch` |
+| /timer | `Timer` |
