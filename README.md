@@ -79,7 +79,7 @@ src/
 
 ## ⚙️ Installation & Setup
 
-# 1️⃣. Clone repository
+### 1️⃣ Clone repository
 ```bash
 git clone https://github.com/merupeshpradhan/Stopwatch-and-Timer-App.git
 ```
