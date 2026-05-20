@@ -85,20 +85,20 @@ git clone https://github.com/merupeshpradhan/Stopwatch-and-Timer-App.git
 ```
 ---
 
-# 2️⃣
+### 2️⃣ Install dependencies
 ```bash
 npm install
 ```
 ---
 
-# 3️⃣ Run development server
+### 3️⃣ Run development server
 ```
 npm run dev
 ```
 
 ---
 
-# 4️⃣ Build for production
+### 4️⃣ Build for production
 ```
 npm run build
 ```
