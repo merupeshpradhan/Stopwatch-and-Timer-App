@@ -59,7 +59,7 @@ It features a futuristic UI with animated circular progress indicators, real-tim
 
 ## 📁 Project Structure
 
-
+```bash
 src/
 │── components/
 │ ├── Layout.tsx
@@ -73,7 +73,7 @@ src/
 │── App.tsx
 │── main.tsx
 │── index.css
-
+```
 
 ---
 
